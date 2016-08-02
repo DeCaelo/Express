@@ -141,3 +141,35 @@ a {
 .fa-user {
   font-size: 40px;
 }
+.thumbnail {
+    background-color: #da9936;
+}
+.thumbnail img {
+  max-height: 150px;
+}
+.thumbnail .description {
+  color: #616668;
+}
+.price {
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn-buy {
+  transition:.3s;
+  font-weight:bold;
+  font-size:13px;
+  color:#f0f0f0
+}
+.btn-buy{
+  position:relative;
+  z-index:1;
+  background-color:rgba(0,0,0,0.1);
+  border:1px solid rgba(0,0,0,0.15);
+  padding:5px 8px;
+  top:1px;
+  border-radius:3px
+}
+.btn-buy.active,.btn-buy:hover{
+  background-color:rgba(0,0,0,0.2);
+  box-shadow:0 0 4px rgba(255,255,255,0.55)
+}
