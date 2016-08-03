@@ -2,6 +2,7 @@ var Product = require('../models/product');
 
 var mongoose = require ('mongoose');
 
+mongoose.Promise = global.Promise;
 mongoose.connect('localhost:27017/shopping');
 
 var products = [
