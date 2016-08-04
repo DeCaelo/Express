@@ -52,9 +52,8 @@ for (var i = 0; i < products.length; i++) {
             exit();
         }
     });
-
 }
 
-function exit () {
+function exit() {
     mongoose.disconnect();
 }
