@@ -16,6 +16,7 @@ var routes = require('./routes/index');
 var app = express();
 
 mongoose.connect('localhost:27017/shopping');
+require('./config/passport');
 
 // view engine setup
 app.engine('.hbs', expressHbs({ defaultLayout: 'layout', extname: '.hbs' }));
